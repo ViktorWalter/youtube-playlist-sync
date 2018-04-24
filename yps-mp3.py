@@ -51,7 +51,7 @@ def sync_playlist(config_path):
     if 'format' in config_data:
         run_in_subprocess([YOUTUBE_DL_PATH, '-f', config_data['format'], config_data['youtube_playlist']])
     else:
-        run_in_subprocess([YOUTUBE_DL_PATH, config_data['youtube_playlist']])
+        run_in_subprocess([YOUTUBE_DL_PATH, config_data['youtube_playlist'],  '-x', '--audio-format', 'mp3', '--download-archive', 'downloaded.txt',  '--no-post-overwrites'])
 
     os.chdir(current_dir)  # change back to original dir
 
