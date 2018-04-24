@@ -1,6 +1,9 @@
-# Youtube Playlist Sync
+# Youtube Playlist Sync - MP3 playlist fork
 
 A small script used to download videos from a number of playlists using youtube-dl.
+
+This fork of chewett's script exports playlist videos to MP3s and keeps a track of the already downloaded ones.
+Good for people like me who keep their music playlists on Youtube.
 
 You initialise a folder to hold a specific playlist, which then stores a config file in that directory that holds the
  playlist details.
