@@ -4,6 +4,7 @@ A small script used to download videos from a number of playlists using youtube-
 
 This fork of chewett's script exports playlist videos to MP3s and keeps a track of the already downloaded ones.
 Good for people like me who keep their music playlists on Youtube.
+To use this feature, just replace yps.py with yps-mp3.py and do as before
 
 You initialise a folder to hold a specific playlist, which then stores a config file in that directory that holds the
  playlist details.
@@ -29,4 +30,4 @@ youtube-dl handles if you need to download a video or not and supports download 
 
 ## License
 
-MIT all the way!
+Originally released under MIT license.
